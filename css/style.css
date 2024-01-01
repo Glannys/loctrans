@@ -1,10 +1,48 @@
-h1 {
-  font-size: 100px;
-  font-family: Nunito;
-  font-weight: bold;
+body {
+  background-color: #e7eaf6;
 }
 
-p {
+header {
+  background-color: #a2a8d3;
+  padding: 70px 20px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h1,
+h2 {
   font-family: Nunito;
-  font-weight: normal;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navigation-links {
+  margin-top: 30px;
+}
+
+.navigation-links a {
+  margin: 20px;
+}
+
+.contact-link,
+.about-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  border: 1px solid black;
+  background-color: #113f67;
+  color: white;
+  transition: color 0.3s;
+}
+
+.contact-link:hover,
+.about-link:hover {
+  color: #a2a8d3;
+  background-color: #113f67;
 }
