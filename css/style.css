@@ -1,11 +1,17 @@
-body {
-  background-color: #e7eaf6;
+:root {
+  --primary-color: #e7eaf6;
+  --secondary-color: #113f67;
+  --tertiary-color: #a2a8d3;
 }
 
 header {
-  background-color: #a2a8d3;
+  background-color: var(--primary-color);
   padding: 70px 20px;
 }
+/*
+#a2a8d3;
+#e7eaf6;
+*/
 
 h1 {
   font-size: 60px;
@@ -36,13 +42,13 @@ h2 {
   padding: 20px 15px;
   text-decoration: none;
   border: 1px solid black;
-  background-color: #113f67;
+  background-color: var(--secondary-color);
   color: white;
   transition: color 0.3s;
 }
 
 .contact-link:hover,
 .about-link:hover {
-  color: #a2a8d3;
-  background-color: #113f67;
+  color: var(--tertiary-color);
+  background-color: var(--secondary-color);
 }
