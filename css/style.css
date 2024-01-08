@@ -2,12 +2,14 @@
   --primary-color: #e7eaf6;
   --secondary-color: #113f67;
   --tertiary-color: #a2a8d3;
+  --fourth-color: #38598b;
 }
 
 header {
   background-color: var(--primary-color);
-  padding: 70px 20px;
+  padding: 40px 20px;
 }
+
 /*
 #a2a8d3;
 #e7eaf6;
@@ -22,12 +24,31 @@ h2 {
 }
 
 h1,
-h2 {
+h2,
+.card-title {
   font-family: Nunito;
   font-weight: bold;
-  text-align: center;
+  /* text-align: center; */
 }
 
+h3 {
+  font-style: italic;
+  font-family: Nunito;
+  /* text-align: center; */
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+li {
+  line-height: 2;
+}
+
+img {
+  max-width: 100px;
+}
 .navigation-links {
   margin-top: 30px;
 }
@@ -36,19 +57,46 @@ h2 {
   margin: 20px;
 }
 
-.contact-link,
-.about-link {
+.nav-button {
   border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
+  /* padding: 20px 15px; */
   border: 1px solid black;
-  background-color: var(--secondary-color);
+  background-color: var(--fourth-color);
   color: white;
   transition: color 0.3s;
+  text-transform: capitalize;
 }
 
-.contact-link:hover,
-.about-link:hover {
+.nav-button:hover {
   color: var(--tertiary-color);
   background-color: var(--secondary-color);
 }
+
+.overview {
+  font-family: Nunito;
+}
+
+.card {
+  border: none;
+}
+
+.card-title {
+  text-transform: capitalize;
+}
+
+.overview-body {
+  font-size: 18px;
+}
+
+/* .specialization {
+  font-size: 42px;
+} */
+
+/* .spec-heading {
+  font-size: 40px;
+} */
+
+/* .list {
+  font-size: 20px;
+  margin: 40px 0;
+} */
