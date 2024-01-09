@@ -10,11 +10,6 @@ header {
   padding: 40px 20px;
 }
 
-/*
-#a2a8d3;
-#e7eaf6;
-*/
-
 h1 {
   font-size: 60px;
 }
@@ -84,19 +79,3 @@ img {
   text-transform: capitalize;
 }
 
-.overview-body {
-  font-size: 18px;
-}
-
-/* .specialization {
-  font-size: 42px;
-} */
-
-/* .spec-heading {
-  font-size: 40px;
-} */
-
-/* .list {
-  font-size: 20px;
-  margin: 40px 0;
-} */
