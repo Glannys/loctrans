@@ -5,6 +5,10 @@
   --fourth-color: #38598b;
 }
 
+body {
+  font-family: Nunito;
+}
+
 header {
   background-color: var(--primary-color);
   padding: 40px 20px;
@@ -20,14 +24,13 @@ h2 {
 
 h1,
 h2,
+h5,
 .card-title {
-  font-family: Nunito;
   font-weight: bold;
 }
 
 h3 {
   font-style: italic;
-  font-family: Nunito;
 }
 
 h4 {
@@ -53,7 +56,6 @@ li {
   background-color: var(--fourth-color);
   color: white;
   transition: color 0.3s;
-  text-transform: capitalize;
 }
 
 .nav-button:hover {
@@ -61,26 +63,35 @@ li {
   background-color: var(--secondary-color);
 }
 
-.overview {
-  font-family: Nunito;
-}
-
 .card {
   border: none;
 }
 
-.card-title {
-  text-transform: capitalize;
+.card-title,
+.specialization-heading {
   font-size: 22px;
 }
 
 .card-text,
-.services-overview {
+.services-overview,
+.specialization-body {
   font-size: 17px;
 }
 
 .message-sent {
   max-width: 100px;
+}
+
+.section-start {
+  margin: 80px 0 50px 0;
+}
+
+.specialization {
+  margin: 50px 0;
+}
+
+.color-section {
+  background-color: var(--primary-color);
 }
 
 @media (width <= 768px) {
@@ -96,11 +107,13 @@ li {
   h4 {
     font-size: 21px;
   }
-  .card-title {
+  .card-title,
+  .specialization-heading {
     font-size: 18px;
   }
   .card-text,
-  .services-overview {
+  .services-overview,
+  .specialization-body {
     font-size: 16px;
   }
 }
