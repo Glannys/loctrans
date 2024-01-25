@@ -38,7 +38,11 @@ h4 {
   font-size: 26px;
 }
 
-li {
+h5 {
+  font-size: 22px;
+}
+
+.bullet-list li {
   line-height: 2;
 }
 
@@ -73,9 +77,10 @@ li {
 }
 
 .card-text,
-.services-overview,
+.bullet-list,
 .specialization-body {
   font-size: 17px;
+  line-height: 1.6;
 }
 
 .message-sent {
@@ -87,7 +92,7 @@ li {
 }
 
 .specialization {
-  margin: 50px 0;
+  margin: 20px 0;
 }
 
 .color-section {
@@ -112,8 +117,72 @@ li {
     font-size: 18px;
   }
   .card-text,
-  .services-overview,
+  .bullet-list,
   .specialization-body {
     font-size: 16px;
   }
+}
+
+#background {
+  background-color: var(--primary-color);
+  padding: 40px 20px;
+  border-radius: 150px 5px;
+  margin: 10px 40px;
+}
+
+.intro-text {
+  font-size: 20px;
+}
+
+.career-highlights {
+  list-style-type: none; /* Removes default bullets */
+  padding: 0;
+}
+
+.career-highlights li {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 10px; /* Adjust as necessary */
+  padding-left: 20px; /* Adjust as necessary */
+  position: relative;
+}
+
+.career-highlights li:before {
+  content: "✔"; /* Custom bullet */
+  color: var(--secondary-color);
+  position: absolute;
+  left: 0;
+}
+
+.about-heading {
+  font-style: italic;
+  font-size: 28px;
+}
+
+#approach {
+  border-radius: 20px;
+  background-color: var(--primary-color);
+  margin: 60px 40px;
+  padding: 20px 20px;
+}
+
+#approach p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+#interests {
+  border-radius: 0 0 40px 40px;
+  background-color: var(--primary-color);
+  margin: 60px 40px;
+  padding: 20px 20px;
+}
+
+#interests p {
+  font-size: 17px;
+}
+
+.other-color-section {
+  background: var(--primary-color);
+  border: 1px solid var(--fourth-color);
 }
