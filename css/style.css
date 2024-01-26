@@ -18,31 +18,35 @@ h1 {
   font-size: 60px;
 }
 
-h2 {
+h2,
+.about-heading {
   font-size: 28px;
 }
 
 h1,
 h2,
+h4,
 h5,
 .card-title {
   font-weight: bold;
 }
 
-h3 {
+h3,
+.about-heading {
   font-style: italic;
 }
 
 h4 {
-  font-weight: bold;
   font-size: 26px;
 }
 
-h5 {
+h5,
+.card-title,
+.field-heading {
   font-size: 22px;
 }
 
-.bullet-list li {
+.main-body li {
   line-height: 2;
 }
 
@@ -71,14 +75,9 @@ h5 {
   border: none;
 }
 
-.card-title,
-.specialization-heading {
-  font-size: 22px;
-}
-
 .card-text,
-.bullet-list,
-.specialization-body {
+.main-body,
+.career-highlights li {
   font-size: 17px;
   line-height: 1.6;
 }
@@ -99,30 +98,6 @@ h5 {
   background-color: var(--primary-color);
 }
 
-@media (width <= 768px) {
-  h1 {
-    font-size: 44px;
-  }
-  h2 {
-    font-size: 24px;
-  }
-  h3 {
-    font-size: 22px;
-  }
-  h4 {
-    font-size: 21px;
-  }
-  .card-title,
-  .specialization-heading {
-    font-size: 18px;
-  }
-  .card-text,
-  .bullet-list,
-  .specialization-body {
-    font-size: 16px;
-  }
-}
-
 #background {
   background-color: var(--primary-color);
   padding: 40px 20px;
@@ -135,28 +110,21 @@ h5 {
 }
 
 .career-highlights {
-  list-style-type: none; /* Removes default bullets */
+  list-style-type: none;
   padding: 0;
 }
 
 .career-highlights li {
-  font-size: 17px;
-  line-height: 1.6;
-  margin-bottom: 10px; /* Adjust as necessary */
-  padding-left: 20px; /* Adjust as necessary */
+  margin-bottom: 10px;
+  padding-left: 20px;
   position: relative;
 }
 
 .career-highlights li:before {
-  content: "✔"; /* Custom bullet */
+  content: "✔";
   color: var(--secondary-color);
   position: absolute;
   left: 0;
-}
-
-.about-heading {
-  font-style: italic;
-  font-size: 28px;
 }
 
 #approach {
@@ -178,11 +146,39 @@ h5 {
   padding: 20px 20px;
 }
 
-#interests p {
-  font-size: 17px;
-}
-
 .other-color-section {
   background: var(--primary-color);
   border: 1px solid var(--fourth-color);
+}
+
+@media (width <= 768px) {
+  h1 {
+    font-size: 44px;
+  }
+  h2,
+  .about-heading {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 21px;
+  }
+  h5,
+  .card-title,
+  .field-heading {
+    font-size: 19px;
+  }
+  .intro-text {
+    font-size: 18px;
+  }
+  #approach p {
+    font-size: 17px;
+  }
+  .card-text,
+  .main-body,
+  .career-highlights li {
+    font-size: 16px;
+  }
 }
