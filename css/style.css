@@ -152,11 +152,11 @@ h5,
 }
 
 .samples-h1 {
-  font-size: 44px;
+  font-size: 36px;
 }
 
 .samples-h2 {
-  font-size: 34px;
+  font-size: 30px;
 }
 
 .samples-data {
@@ -170,6 +170,11 @@ h5,
 
 .samples-process-title {
   font-weight: bold;
+}
+
+.language {
+  font-weight: bold;
+  font-size: 18px;
 }
 
 @media (width <= 768px) {
