@@ -31,7 +31,7 @@ h5,
   font-weight: bold;
 }
 
-h3,
+#tagline,
 .about-heading {
   font-style: italic;
 }
@@ -149,6 +149,27 @@ h5,
 .other-color-section {
   background: var(--primary-color);
   border: 1px solid var(--fourth-color);
+}
+
+.samples-h1 {
+  font-size: 44px;
+}
+
+.samples-h2 {
+  font-size: 34px;
+}
+
+.samples-data {
+  font-size: 24px;
+}
+
+.samples-process-title,
+.samples-process-body {
+  font-size: 20px;
+}
+
+.samples-process-title {
+  font-weight: bold;
 }
 
 @media (width <= 768px) {
