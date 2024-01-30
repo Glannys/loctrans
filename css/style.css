@@ -215,4 +215,17 @@ h5,
   .career-highlights li {
     font-size: 16px;
   }
+  .samples-h1 {
+    font-size: 28px;
+  }
+  .samples-h2 {
+    font-size: 24px;
+  }
+  .samples-data {
+    font-size: 20px;
+  }
+  .samples-process-title,
+  .samples-process-body {
+    font-size: 17px;
+  }
 }
