@@ -177,6 +177,14 @@ h5,
   font-size: 18px;
 }
 
+#samples-body {
+  background: var(--primary-color);
+}
+
+.samples-border {
+  border: 1px solid var(--tertiary-color);
+}
+
 @media (width <= 768px) {
   h1 {
     font-size: 44px;
