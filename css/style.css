@@ -151,7 +151,7 @@ h5,
   border: 1px solid var(--fourth-color);
 }
 
-.samples-h1 {
+.page-h1 {
   font-size: 36px;
 }
 
@@ -185,6 +185,39 @@ h5,
   border: 1px solid var(--tertiary-color);
 }
 
+.contact-body {
+  background: var(--primary-color);
+}
+
+.contact-intro {
+  font-size: 22px;
+}
+
+.contact-h2 {
+  font-size: 24px;
+}
+
+.contact-main {
+  font-size: 20px;
+}
+
+/* .contact-details {
+  margin: 100px 300px;
+  padding: 40px 10px; */
+/* border-radius: 10px;
+  border: solid var(--secondary-color) 1px; */
+/* } */
+
+/* .contact-details:hover {
+  background: var(--primary-color);
+  transition: 0.3s;
+} */
+
+.contact-details a {
+  text-decoration: none;
+  color: black;
+}
+
 @media (width <= 768px) {
   h1 {
     font-size: 44px;
@@ -215,7 +248,7 @@ h5,
   .career-highlights li {
     font-size: 16px;
   }
-  .samples-h1 {
+  .page-h1 {
     font-size: 28px;
   }
   .samples-h2 {
