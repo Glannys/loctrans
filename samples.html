@@ -23,9 +23,52 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
-  <body id="samples-body">
-    <h1 class="page-h1 my-4 text-center">Samples of My Work</h1>
-    <section>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Olga Tverdomed</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="samples.html"
+                  >Samples</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <h1 class="page-h1 mb-4 text-center">Samples of My Work</h1>
+    <section class="sample-box">
       <div class="container">
         <h2 class="samples-h2 mt-5 mb-1 text-center">Sample 1</h2>
         <p class="samples-data mb-3 mt-4 text-center">
@@ -158,7 +201,7 @@
       </div>
     </section>
 
-    <section>
+    <section class="sample-box mt-5">
       <div class="container">
         <h2 class="samples-h2 mt-5 mb-1 text-center">Sample 2</h2>
         <p class="samples-data mb-3 mt-4 text-center">
@@ -261,7 +304,7 @@
       </div>
     </section>
 
-    <section>
+    <section class="sample-box mt-5">
       <div class="container">
         <h2 class="samples-h2 mt-5 mb-1 text-center">Sample 3</h2>
         <p class="samples-data mb-3 mt-4 text-center">
@@ -289,7 +332,8 @@
               I agreed to add UI elements in English as well, to avoid confusion
               caused by possible inconsistencies between the translations of
               user interface in the manual and in the vehicle. Differences in
-              punctuation addressed such as upper/lower case after colon
+              punctuation, such as upper/lower case after a colon, were
+              addressed
             </p>
           </div>
         </div>

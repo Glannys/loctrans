@@ -23,59 +23,104 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
-  <body class="contact-body">
-    <h1 class="page-h1 my-5 text-center">Contact Me</h1>
-    <p class="contact-intro text-center mx-3 mx-md-5">
-      Interested in collaborating or have a question? Drop me an email or
-      connect with me on LinkedIn.
-    </p>
-    <div class="container">
-      <section class="contact-details mt-5">
-        <div class="row">
-          <div class="col-lg-4">
-            <h2 class="contact-h2 text-center mt-5">
-              <img
-                src="img/icons8-location-50.png"
-                alt="Location icon"
-                class="mb-2"
-              />
-              <div>Location:</div>
-            </h2>
-            <p class="contact-main text-center mt-3">Kyiv Oblast, Ukraine</p>
-          </div>
-          <div class="col-lg-4">
-            <h2 class="contact-h2 text-center mt-5">
-              <img
-                src="img/icons8-email-50.png"
-                alt="Email icon"
-                class="mb-2"
-              />
-              <div>Email:</div>
-            </h2>
-            <p class="contact-main text-center mt-3">
-              <a href="mailto:olga.tverdomed@gmail.com"
-                >olga.tverdomed@gmail.com</a
-              >
-            </p>
-          </div>
-          <div class="col-lg-4">
-            <h2 class="contact-h2 text-center mt-5">
-              <img
-                src="img/icons8-linkedin-50.png"
-                alt="LinkedIn icon"
-                class="mb-2"
-              />
-              <div>LinkedIn:</div>
-            </h2>
-            <p class="contact-main text-center mt-3">
-              <a href="https://www.linkedin.com/in/olga-tverdomed/"
-                >Olga Tverdomed</a
-              >
-            </p>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Olga Tverdomed</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="samples.html">Samples</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
           </div>
         </div>
-      </section>
-    </div>
+      </nav>
+    </header>
+
+    <h1 class="page-h1 mb-5 text-center">Contact Me</h1>
+    <section class="contact-box">
+      <p class="contact-intro text-center mx-3 mx-md-5">
+        Interested in collaborating or have a question? Drop me an email or
+        connect with me on LinkedIn.
+      </p>
+      <div class="container">
+        <section class="contact-details my-4">
+          <div class="row">
+            <div class="col-lg-4">
+              <h2 class="contact-h2 text-center mt-5">
+                <img
+                  src="img/icons8-location-50.png"
+                  alt="Location icon"
+                  class="mb-2"
+                />
+                <div>Location:</div>
+              </h2>
+              <p class="contact-main text-center mt-3">Kyiv Oblast, Ukraine</p>
+            </div>
+            <div class="col-lg-4">
+              <h2 class="contact-h2 text-center mt-5">
+                <img
+                  src="img/icons8-email-50.png"
+                  alt="Email icon"
+                  class="mb-2"
+                />
+                <div>Email:</div>
+              </h2>
+              <p class="contact-main text-center mt-3">
+                <a href="mailto:olga.tverdomed@gmail.com"
+                  >olga.tverdomed@gmail.com</a
+                >
+              </p>
+            </div>
+            <div class="col-lg-4">
+              <h2 class="contact-h2 text-center mt-5">
+                <img
+                  src="img/icons8-linkedin-50.png"
+                  alt="LinkedIn icon"
+                  class="mb-2"
+                />
+                <div>LinkedIn:</div>
+              </h2>
+              <p class="contact-main text-center mt-3">
+                <a href="https://www.linkedin.com/in/olga-tverdomed/"
+                  >Olga Tverdomed</a
+                >
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
