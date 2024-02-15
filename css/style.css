@@ -231,10 +231,14 @@ footer {
   text-align: center;
 }
 
+footer .social-links {
+  margin-bottom: 30px;
+}
+
 footer .social-links a {
   color: var(--primary-color);
   background-color: var(--secondary-color);
-  margin: 0 20px;
+  margin: 0 25px;
   padding: 10px 14px;
   border-radius: 50%;
 }
@@ -242,6 +246,17 @@ footer .social-links a {
 footer .social-links a:hover {
   background-color: var(--tertiary-color);
   color: var(--secondary-color);
+}
+
+footer p {
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+footer p a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: bold;
 }
 
 @media (width <= 768px) {
