@@ -194,8 +194,8 @@ h5,
 .contact-box {
   border-radius: 0 0 70px 70px;
   background-color: var(--primary-color);
-  margin: 30px 40px;
   padding: 50px 20px 20px 20px;
+  margin-bottom: 40px;
 }
 
 .contact-intro {
@@ -227,7 +227,7 @@ footer {
   background-color: var(--primary-color);
   border-radius: 4px;
   padding: 40px;
-  margin: 60px -12px 30px;
+  margin: 60px 0px 30px;
   text-align: center;
 }
 
