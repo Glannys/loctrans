@@ -14,6 +14,11 @@ body {
   margin-top: 80px;
 }
 
+.general-subheading {
+  font-size: 22px;
+  font-weight: bold;
+}
+
 /* Home */
 
 .hero {
@@ -35,9 +40,8 @@ body {
 h1,
 h2,
 h4,
-h5,
 .card-title,
-.field-heading {
+.general-subheading {
   font-weight: bold;
 }
 
@@ -46,14 +50,12 @@ h5,
   font-style: italic;
 }
 
-h4,
 .welcome {
   font-size: 26px;
 }
 
-h5,
 .card-title,
-.field-heading {
+.general-subheading {
   font-size: 22px;
 }
 
@@ -101,11 +103,9 @@ h5,
 
 .service-h2 {
   font-size: 22px;
-  font-weight: bold;
 }
 
 .service-h3 {
-  margin: 80px 0 50px 0;
   font-size: 26px;
   font-weight: bold;
 }
@@ -118,6 +118,8 @@ h5,
   background-color: var(--primary-color);
 }
 
+/*About*/
+
 #background {
   background-color: var(--primary-color);
   padding: 40px 20px;
@@ -127,6 +129,11 @@ h5,
 
 .intro-text {
   font-size: 20px;
+}
+
+.career-highlights-heading {
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .career-highlights {
@@ -171,6 +178,8 @@ h5,
   border: 1px solid var(--fourth-color);
 }
 
+/* Samples */
+
 .samples-h2 {
   font-size: 30px;
 }
@@ -204,6 +213,8 @@ h5,
   border: 1px solid var(--tertiary-color);
 }
 
+/* Contact */
+
 .contact-box {
   border-radius: 0 0 70px 70px;
   background-color: var(--primary-color);
@@ -234,6 +245,8 @@ h5,
   color: var(--secondary-color);
   font-weight: bold;
 }
+
+/* Footer */
 
 footer {
   font-size: 24px;
@@ -272,6 +285,8 @@ footer p a {
   font-weight: bold;
 }
 
+/* Media Queries */
+
 @media (width <= 768px) {
   .hero-heading {
     font-size: 44px;
@@ -287,10 +302,10 @@ footer p a {
   .service-h3 {
     font-size: 21px;
   }
-  h5,
+
   .service-h2,
   .card-title,
-  .field-heading {
+  .general-subheading {
     font-size: 19px;
   }
   .intro-text {
